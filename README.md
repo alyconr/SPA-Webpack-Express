@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  <img src="./src/assets/images/LOGOv2.png" alt="logo" width="250" height="250" />
+  <img src="./src/assets/images/LOGO.png" alt="logo" width="250" height="250" />
   <br/>
 
   <h3><b>Single Page Application (SPA) with Webpack and Express - Server-Side Menu Rendering</b></h3>
