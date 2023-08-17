@@ -8,8 +8,8 @@
   display: block;
   padding: 10px 18px;
   text-align: left;
-  border-bottom: solid 1px #444;
-  color: #ccc;
+  border-bottom: solid 1px #3b3939;
+  color: #fff;
 }
 
 .navbar-global .navbar-brand {
@@ -21,13 +21,13 @@
 }
 
 .navbar-primary {
-  background-color: #333;
+  background-color: #070707;
   bottom: 0;
   left: 0;
   position: fixed;
   top: 0;
   width: 200px;
-  z-index: 8;
+  z-index: 100;
   overflow: hidden;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -46,13 +46,13 @@
 
 .navbar-primary-menu,
 .navbar-primary-menu li {
-  margin: 20px 0;
+  margin: 50px 0;
   padding: 0;
   list-style: none;
 }
 
 .navbar-primary-menu li a:hover {
-  background-color: #000;
+  background-color: #706969;
   text-decoration: none;
   color: white;
 }
@@ -61,4 +61,59 @@
   margin-top: 60px;
   margin-left: 200px;
   padding: 20px;
+}
+
+.foo {
+  margin-top: -20px;
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a ::after(.navbar-primary-menu) {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover ::after(.navbar-primary-menu) {
+  opacity: 0.7;
+}
+
+.prof {
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+/* Add this CSS to center the card in the shows section */
+.center-card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
 }
