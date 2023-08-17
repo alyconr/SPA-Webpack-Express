@@ -21,6 +21,7 @@
     "no-plusplus": "off",
     "radix": "off",
     "max-len": "off",
+    "Missing file extension": "off",
     "no-async-promise-executor": "off",
     "import/prefer-default-export": "off",
     "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": false }],

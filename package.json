@@ -11,7 +11,7 @@
     "start": "webpack serve --open --mode=development",
     "build-dev": "webpack --mode=development ",
     "build-prod": "webpack --mode=production",
-    "server-prod": "node server.js & ",
+    "server-prod": "node server.js  ",
     "server-dev": "nodemon server.js",
     "devserver-live": "concurrently \"npm run server-dev\" \"npm run start\" \"npm run build-dev\""
    
