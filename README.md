@@ -7,7 +7,7 @@
   <img src="./src/assets/images/LOGOv2.png" alt="logo" width="250" height="250" />
   <br/>
 
-  <h3><b>Single Page Application (SPA) with Webpack and Express - Server-Side Menu Rendering</b></h3>
+  <h3><b>Single Page Application (SPA) with Webpack and Express - Server-Side Cryptocurrency Menu Rendering</b></h3>
 
 </div>
 
@@ -41,7 +41,9 @@
 # 📖 [SPA WEBPACK & EXPRESS ] <a name="about-project"></a>
 
   **[SPA WEBPACK & EXPRESS]**  This repository provides an example implementation of a Single Page Application (SPA) built using Webpack and Express, with a focus on server-side menu rendering. The primary goal of this project is to demonstrate how to create a dynamic routing system in Express that allows rendering menu paths from the server without requiring a full page reload.
-  Modern web applications often utilize Single Page Application (SPA) architecture to provide a smooth and interactive user experience. However, SPAs can face challenges related to SEO and initial page load times. This project addresses these challenges by demonstrating how to set up a server-side rendering approach for menu paths, ensuring that menu links are SEO-friendly and provide fast initial page loads. 
+  Modern web applications often utilize Single Page Application (SPA) architecture to provide a smooth and interactive user experience. However, SPAs can face challenges related to SEO and initial page load times. This project addresses these challenges by demonstrating how to set up a server-side rendering approach for menu paths, ensuring that menu links are SEO-friendly and provide fast initial page loads.
+
+  With the help of Coinlayer Api, The menu renders  the most popular cryptocurrencies with the highest market capitalization. The menu  filters the max supply, low supply and profile cards of each cryptocurrency. The above features show how to render menu paths from the server without requiring a full page reload.
 
  
 
@@ -55,6 +57,8 @@
 <li> ES6 Modules </li>
 <li> REST API </li>
 <li> Async/await </li>
+<li> Server-Side Rendering </li>
+<li> Coinlayer API </li>
 <li> Promises </li>
 
 <!-- Features -->
@@ -68,6 +72,9 @@
 - **[ES6 Modules]**
 - **[Webpack Bundling ]**
 - **[Express Server to handle routing]**
+- **[Filtering high/low supply and profile cards]**
+- **[Server-Side Rendering]**
+
 
 
 ### Features
@@ -76,7 +83,7 @@
  The project showcases the implementation of a Single Page Application using Webpack and Express.
 
 ## Server-Side Menu Rendering: 
-Express is configured to dynamically render menu paths on the server side, eliminating the need for full page reloads when navigating between menu items.
+Express is configured to dynamically render menu paths on the server side, eliminating the need for full page reloads when navigating between menu items. The menu filters the max supply, low supply and profile cards of each cryptocurrency.
 
 ## Webpack Integration: 
 The project employs Webpack for bundling and optimizing client-side assets, resulting in a performant and efficient front-end.
@@ -107,6 +114,7 @@ To run this project  you need the following tools installed:
 - [Git and GitHub ]
 - [Nodejs](https://nodejs.org/en/)
 - [Express ]
+- [Coinlayer API](https://www.coinlayer.com/)
 - [Webpack Installation ]
 - [CI CD Netlify Bot  Instalation]
 
