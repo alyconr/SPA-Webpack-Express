@@ -1,5 +1,5 @@
 {
-  "name": "tv-amaze-app",
+  "name": "SPA-webpack-Express",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alyconr/TV-AMAZE-APP.git"
+    "url": "git+https://github.com/alyconr/SPA-webpack-Express.git"
   },
   "keywords": [],
   "author": "Jeysson Contreras",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alyconr/TV-AMAZE-APP/issues"
+    "url": "https://github.com/alyconr/SPA-webpack-Express/issues"
   },
-  "homepage": "https://github.com/alyconr/TV-AMAZE-APP#readme",
+  "homepage": "https://github.com/alyconr/SPA-webpack-Express#readme",
   "devDependencies": {
     "@babel/core": "^7.22.6",
     "@babel/preset-env": "^7.22.6",
